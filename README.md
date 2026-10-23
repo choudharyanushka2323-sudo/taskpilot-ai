@@ -1,16 +1,70 @@
-# React + Vite
+# TaskPilot AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A conversational productivity assistant that helps users manage tasks and organize their day. Built as a web-based prototype for the Amazon Developer Hackathon, with Alexa+ as the primary track.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Task management:** Add, view, complete, and delete tasks.
+- **Priorities and duration:** Organize tasks by importance and estimated time.
+- **Daily planning:** Use suggested prompts to explore task lists and daily planning.
+- **Persistent tasks:** Uses browser local storage to retain tasks between visits.
+- **Conversational interface:** An Alexa+-inspired interface for exploring productivity workflows.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- Browser Local Storage
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Prerequisites
+
+- Node.js and npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/choudharyanushka2323-sudo/taskpilot-ai.git
+cd taskpilot-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL printed in your terminal, usually `http://localhost:5173`.
+
+## Current Prototype Scope
+
+TaskPilot AI is a web-based simulation of a conversational productivity experience inspired by Alexa+. It currently uses local application logic and browser storage. It does not claim to connect to live Alexa+, Amazon services, or a hosted large language model.
+
+## Hackathon Track
+
+**Amazon Developer Hackathon — Alexa+**
+
+The prototype explores how conversational interactions can make everyday task management and planning simpler.
+
+## Future Improvements
+
+- Natural-language task understanding
+- AI-powered scheduling and prioritization
+- Voice interaction
+- Optional integration with supported assistant platforms
+
+## License
+
+This project is intended to be released under the MIT License. See `LICENSE` for details once the license file has been added.
